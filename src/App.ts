@@ -18,7 +18,7 @@ class App {
     console.log("Load Modules!");
     //codigo de los diferentes modulos de proyecto
     this.app.get("/", (request, response) => {
-    response.send("Lo lograste primo lo lograste");
+    response.send("Mi primer servidor !!");
     })
 }
 public getApp() {
